@@ -9,7 +9,7 @@ public:
             s+=grumpy[i]==1?0:customers[i];
             temp+=grumpy[i]==1?customers[i]:0;
             if(i==minutes-1) ans=max(ans, temp);
-            if(i>minutes-1){
+            if(i>minutes){
                 if(grumpy[i-minutes]==1) temp-=customers[i-minutes];
                 ans=max(ans, temp);
             }
