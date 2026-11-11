@@ -1,0 +1,11 @@
+# ---- 编译产物（不纳入版本库）----
+*.exe
+*.o
+*.obj
+*.out
+*.stackdump
+*.dSYM/
+
+# ---- 编辑器 / 系统 ----
+.DS_Store
+Thumbs.db
